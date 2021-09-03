@@ -1,0 +1,669 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://github.com/motowilliams/makedocsio-github-test-bash/">
+      
+      <link rel="icon" href="assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.2.2, mkdocs-material-7.2.6">
+    
+    
+      
+        <title>makedocsio-github-test-bash</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.802231af.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.3f5d1f46.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+      
+    
+    
+    
+    
+      
+
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#welcome-to-makedocsio-github-test-bash" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="." title="makedocsio-github-test-bash" class="md-header__button md-logo" aria-label="makedocsio-github-test-bash" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            makedocsio-github-test-bash
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Home
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        
+<a href="https://github.com/motowilliams/makedocsio-github-test-bash/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="makedocsio-github-test-bash" class="md-nav__button md-logo" aria-label="makedocsio-github-test-bash" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    makedocsio-github-test-bash
+  </label>
+  
+    <div class="md-nav__source">
+      
+<a href="https://github.com/motowilliams/makedocsio-github-test-bash/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Home
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        Home
+      </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    Project Structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-your-site" class="md-nav__link">
+    Building Your Site
+  </a>
+  
+    <nav class="md-nav" aria-label="Building Your Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source" class="md-nav__link">
+    Source
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" class="md-nav__link">
+    Build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serve" class="md-nav__link">
+    Serve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#built-using-docker" class="md-nav__link">
+    Built using Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Built using Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source_1" class="md-nav__link">
+    Source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#project-structure" class="md-nav__link">
+    Project Structure
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#building-your-site" class="md-nav__link">
+    Building Your Site
+  </a>
+  
+    <nav class="md-nav" aria-label="Building Your Site">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source" class="md-nav__link">
+    Source
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#build" class="md-nav__link">
+    Build
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#serve" class="md-nav__link">
+    Serve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#built-using-docker" class="md-nav__link">
+    Built using Docker
+  </a>
+  
+    <nav class="md-nav" aria-label="Built using Docker">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#source_1" class="md-nav__link">
+    Source
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/motowilliams/makedocsio-github-test-bash/edit/master/docs/index.md" title="Edit this page" class="md-content__button md-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+                  </a>
+                
+                
+                <h1 id="welcome-to-makedocsio-github-test-bash">Welcome to makedocsio-github-test-bash</h1>
+<blockquote>
+<p>Rename or change the content of this file at <code>mdocs/content/index.md</code>
+  to get started creating project documentation</p>
+</blockquote>
+<h2 id="project-structure">Project Structure</h2>
+<pre><code>Makefile
+mdocs/
+ - content/
+    - index.md
+ - Dockerfile
+ - Makefile
+ - mkdocs.yml
+</code></pre>
+<p>Your documenation content is placed in <code>mdocs/content</code>. These are your markdown files and images. Standard markdown rules apply here.</p>
+<p>At <code>mdocs/mkdocs.yml</code> is your configuration for your <a href="https://www.mkdocs.org/user-guide/configuration/" target="_blank">https://www.mkdocs.org</a></p>
+<pre><code>site_name: !ENV [SITE_NAME, 'makedocsio-github-test-bash']
+site_url: !ENV [SITE_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+site_dir: !ENV [SITE_DIR, 'site']
+docs_dir: !ENV [DOCS_DIR, 'content']
+repo_url: !ENV [REPO_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+theme: material
+
+plugins:
+  - search
+  - macros:
+      modules: [mkdocs-macros-file-include]
+nav:
+  - 'Home': 'index.md'
+</code></pre>
+<p>You can update the site attributes via the configuration site via the configuration files entries</p>
+<pre><code>site_name: !ENV [SITE_NAME, 'makedocsio-github-test-bash']
+site_url: !ENV [SITE_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+site_dir: !ENV [SITE_DIR, 'site']
+docs_dir: !ENV [DOCS_DIR, 'content']
+repo_url: !ENV [REPO_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+</code></pre>
+<p>or override them via make</p>
+<pre><code>make build_docs SITE_NAME=&quot;makedocsio-github-test-bash&quot;
+</code></pre>
+<h2 id="building-your-site">Building Your Site</h2>
+<p>This project is configured with a Make and has a few tasks created or added too your existing Makefile.</p>
+<h3 id="source">Source</h3>
+<pre><code>export DOCS_DIR_NAME ?= content
+export DOCS_SRC ?= mdocs
+export PUBLISH_DIR ?= public
+export REPO_URL ?= https://github.com/motowilliams/makedocsio-github-test-bash
+export SITE_DIR ?= site
+export SITE_NAME ?= makedocsio-github-test-bash
+export PROTOCOL ?= http
+export DOMAIN_NAME ?= 127.0.0.1:8000
+export SITE_URL ?= $(PROTOCOL)://$(DOMAIN_NAME)/
+export LOCAL_PORT ?= 8000
+
+ifeq ($(OS),Windows_NT)
+SHELL := '/usr/bin/sh.exe'
+PWD := $(shell sh.exe -c pwd)
+else
+SHELL := /bin/bash
+endif
+
+export BASH_CMD := $(SHELL) -c
+export COMMIT_HASH ?= $(shell [[ -d &quot;.git&quot; ]] &amp;&amp; git rev-parse HEAD)
+export REPO_ROOT := $(shell [[ -z &quot;${CI}&quot; ]] &amp;&amp; echo '/app' || echo $(PWD))
+export VERSION ?= $(shell [[ -d &quot;.git&quot; ]] &amp;&amp; git tag --sort=committerdate | grep -E '[0-9]' | tail -1 || echo 0.0.0)
+
+export IMAGE_NAME ?= makedocsio-github-test-bash-builder
+export IMAGE_VERSION ?= latest
+export IMAGE_TAG = $(IMAGE_NAME):$(IMAGE_VERSION)
+export ADDITIONAL_BUILD_ARGS ?=
+
+export DOCS_SRC_PATH=$(REPO_ROOT)/$(DOCS_SRC)
+export PUBLISH_PATH := $(REPO_ROOT)/$(PUBLISH_DIR)
+
+export CONTENT_SITE_PATH=$(DOCS_SRC_PATH)/$(DOCS_DIR_NAME)
+export DOCS_SITE_PATH=$(DOCS_SRC_PATH)/$(SITE_DIR)
+
+ifdef CI
+    export IMAGE_TAG=
+    export DOCKER_COMMAND :=
+else
+    export DOCKER_COMMAND := docker run -it \
+        -v $(PWD):$(REPO_ROOT) \
+        --env CI=TRUE \
+        --env COMMIT_HASH=$(COMMIT_HASH) \
+        --env COMMIT_HASH_LENGTH=$(COMMIT_HASH_LENGTH) \
+        --env CONTENT_SITE_PATH=$(CONTENT_SITE_PATH) \
+        --env DOCS_DIR=$(DOCS_DIR_NAME) \
+        --env DOCS_SITE_PATH=$(DOCS_SITE_PATH) \
+        --env DOCS_SRC_PATH=$(DOCS_SRC_PATH) \
+        --env LOCAL_PORT=$(LOCAL_PORT) \
+        --env PUBLISH_PATH=$(PUBLISH_PATH) \
+        --env REPO_ROOT=$(REPO_ROOT) \
+        --env REPO_URL=$(REPO_URL) \
+        --env SITE_DIR=$(SITE_DIR) \
+        --env SITE_NAME=&quot;$(SITE_NAME)&quot; \
+        --env SITE_URL=$(SITE_URL) \
+        --name $(IMAGE_NAME) \
+        --rm \
+        -w $(DOCS_SRC_PATH)
+endif
+
+docs_clean: ## Removes the content artifacts directories and archive
+    $(eval CMD := rm -rf $(SITE_DIR).zip &amp;&amp; rm -rf $(SITE_DIR) &amp;&amp; rm -rf $(DOCS_SITE_PATH) &amp;&amp; rm -rf $(PUBLISH_PATH) )
+    @echo &quot;Cleaning $(SITE_DIR).zip &amp; $(SITE_DIR) in $(SITE_DIR)&quot;
+    $(DOCKER_COMMAND) $(IMAGE_TAG) $(BASH_CMD) '$(CMD)'
+
+docs_build: ## Builds the content to the 'site' directory
+    $(eval CMD := build )
+    @echo &quot;Building&quot;
+    $(DOCKER_COMMAND) $(IMAGE_TAG) $(BASH_CMD) '$(CMD)'
+
+docs_publish: ## Builds the content to the 'site' directory
+    $(eval CMD := \
+    mkdir -p $(PUBLISH_PATH) &amp;&amp; \
+    cp -R $(DOCS_SITE_PATH)/* $(PUBLISH_PATH)/ \
+    )
+    @echo &quot;Publishing&quot;
+    $(DOCKER_COMMAND) $(IMAGE_TAG) $(BASH_CMD) '$(CMD)'
+
+docs_debug: ## Runs the docker image interactively for debugging purposes
+    @$(DOCKER_COMMAND) $(IMAGE_TAG) $(CMD)
+
+docs_docker_build: ## Build the docker image used for these make targets not within DIND
+    docker build --pull $(ADDITIONAL_BUILD_ARGS) -t $(IMAGE_TAG) $(DOCS_SRC)/. -f $(DOCS_SRC)/Dockerfile
+
+docs_package: build_docs ## Builds the content to a compressed archive
+    $(eval CMD := cd $(DOCS_SRC_PATH) &amp;&amp; zip -r ../$(SITE_DIR).zip ./)
+    @echo &quot;Packaging&quot;
+    $(DOCKER_COMMAND) $(IMAGE_TAG) $(BASH_CMD) '$(CMD)'
+
+docs_serve: ## Runs the mkdocs server
+    $(eval CMD := serve)
+    $(DOCKER_COMMAND) -p $(LOCAL_PORT):$(LOCAL_PORT) --expose $(LOCAL_PORT) $(IMAGE_TAG) $(BASH_CMD) '$(CMD)'
+
+print-%: ; @echo $*=$($*)
+
+printenv:
+    printenv | sort
+</code></pre>
+<h3 id="build">Build</h3>
+<p>To build your static site run the following</p>
+<pre><code>make build_docs
+</code></pre>
+<h3 id="serve">Serve</h3>
+<p>To serve your static site run the following on a liveload server on <code>127.0.0.0:8000</code> run the following</p>
+<pre><code>make serve_docs
+</code></pre>
+<p>Or to run it on an alternate port using the following (replacing 8888 with your desired value)</p>
+<pre><code>make serve_docs LOCAL_PORT=8888
+</code></pre>
+<h2 id="built-using-docker">Built using Docker</h2>
+<p>This documentation build tool lives in a docker container and is called from a Makefile for local building and serving. You can also use this in CI.</p>
+<h3 id="source_1">Source</h3>
+<pre><code>FROM debian:latest
+
+ENV PYTHONUNBUFFERED=1
+
+RUN apt-get update &amp;&amp; \
+    apt-get install -y -qq \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg \
+    gnupg-agent \
+    lsb-release \
+    python3 \
+    python3-pip \
+    rsync \
+    software-properties-common \
+    tar \
+    zip
+
+# Docker apt repo
+RUN curl -fsSL https://download.docker.com/linux/debian/gpg | apt-key add -
+RUN add-apt-repository &quot;deb [arch=amd64] https://download.docker.com/linux/debian $(lsb_release -cs) stable&quot;
+RUN apt-get update &amp;&amp; apt-get install -y docker-ce docker-ce-cli
+
+# https://www.mkdocs.org/ https://mkdocs-macros-plugin.readthedocs.io/ https://squidfunk.github.io/mkdocs-material/
+RUN pip3 install --no-cache --upgrade pip setuptools
+RUN pip3 install mkdocs mkdocs-macros-plugin mkdocs-material
+
+RUN FILE=theme.list &amp;&amp; \
+    echo 'mkdocs'      &gt;&gt; /$FILE &amp;&amp; \
+    echo 'readthedocs' &gt;&gt; /$FILE &amp;&amp; \
+    echo 'material'    &gt;&gt; /$FILE
+
+# //TODO setup this repo to be a pip package
+RUN cd /tmp &amp;&amp; \
+    git clone https://gitlab.com/motowilliams/mkdocs-macros-file-include.git &amp;&amp; \
+    cd mkdocs-macros-file-include &amp;&amp; \
+    python3 setup.py install &amp;&amp; \
+    cd / &amp;&amp; \
+    rm -rf /tmp/
+
+# these used to be added as files - heredocs would be useful but we don't know
+#  if the users CI / local setup will support it
+RUN echo &quot;Creating wrapper scripts&quot;                                         &amp;&amp; \
+    SCRIPT=/usr/local/bin/build                                             &amp;&amp; \
+    echo '#!/usr/bin/env bash'                                   &gt;&gt; $SCRIPT &amp;&amp; \
+    echo                                                         &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'echo &quot;Setting directory to $DOCS_SRC_PATH&quot;'            &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'cd $DOCS_SRC_PATH'                                     &gt;&gt; $SCRIPT &amp;&amp; \
+    echo                                                         &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'echo &quot;Building documentation site&quot;'                    &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'mkdocs build'                                          &gt;&gt; $SCRIPT &amp;&amp; \
+    chmod 755 $SCRIPT                                                       &amp;&amp; \
+    SCRIPT=/usr/local/bin/serve                                             &amp;&amp; \
+    echo '#!/usr/bin/env bash'                                   &gt;&gt; $SCRIPT &amp;&amp; \
+    echo                                                         &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'echo &quot;Setting directory to $DOCS_SRC_PATH&quot;'            &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'cd $DOCS_SRC_PATH'                                     &gt;&gt; $SCRIPT &amp;&amp; \
+    echo                                                         &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'echo &quot;Serving documentation site on port $LOCAL_PORT&quot;' &gt;&gt; $SCRIPT &amp;&amp; \
+    echo 'mkdocs serve -v --dev-addr=0.0.0.0:$LOCAL_PORT'        &gt;&gt; $SCRIPT &amp;&amp; \
+    chmod 755 $SCRIPT
+</code></pre>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        
+<footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+        
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": ".", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.409db549.min.js", "version": null}</script>
+    
+    
+      <script src="assets/javascripts/bundle.756773cc.min.js"></script>
+      
+    
+  </body>
+</html>
