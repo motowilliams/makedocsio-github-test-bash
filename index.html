@@ -423,11 +423,11 @@ mdocs/
 </code></pre>
 <p>Your documenation content is placed in <code>mdocs/content</code>. These are your markdown files and images. Standard markdown rules apply here.</p>
 <p>At <code>mdocs/mkdocs.yml</code> is your configuration for your <a href="https://www.mkdocs.org/user-guide/configuration/" target="_blank">https://www.mkdocs.org</a></p>
-<pre><code>site_name: !ENV [SITE_NAME, 'makedocsio-github-test-bash']
-site_url: !ENV [SITE_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
-site_dir: !ENV [SITE_DIR, 'site']
-docs_dir: !ENV [DOCS_DIR, 'content']
-repo_url: !ENV [REPO_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+<pre><code>site_name: !ENV [SITE_NAME, &quot;makedocsio-github-test-bash&quot;]
+site_url: !ENV [SITE_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
+site_dir: !ENV [SITE_DIR, &quot;site&quot;]
+docs_dir: !ENV [DOCS_DIR, &quot;content&quot;]
+repo_url: !ENV [REPO_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
 theme: material
 
 plugins:
@@ -435,14 +435,14 @@ plugins:
   - macros:
       modules: [mkdocs-macros-file-include]
 nav:
-  - 'Home': 'index.md'
+  - &quot;Home&quot;: &quot;index.md&quot;
 </code></pre>
 <p>You can update the site attributes via the configuration site via the configuration files entries</p>
-<pre><code>site_name: !ENV [SITE_NAME, 'makedocsio-github-test-bash']
-site_url: !ENV [SITE_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
-site_dir: !ENV [SITE_DIR, 'site']
-docs_dir: !ENV [DOCS_DIR, 'content']
-repo_url: !ENV [REPO_URL, 'https://github.com/motowilliams/makedocsio-github-test-bash']
+<pre><code>site_name: !ENV [SITE_NAME, &quot;makedocsio-github-test-bash&quot;]
+site_url: !ENV [SITE_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
+site_dir: !ENV [SITE_DIR, &quot;site&quot;]
+docs_dir: !ENV [DOCS_DIR, &quot;content&quot;]
+repo_url: !ENV [REPO_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
 </code></pre>
 <p>or override them via make</p>
 <pre><code>make build_docs SITE_NAME=&quot;makedocsio-github-test-bash&quot;
