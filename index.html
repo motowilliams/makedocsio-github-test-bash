@@ -16,7 +16,7 @@
     
     
       
-        <title>makedocsio-github-test-bash</title>
+        <title>github-bash</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#welcome-to-makedocsio-github-test-bash" class="md-skip">
+        <a href="#welcome-to-github-bash" class="md-skip">
           Skip to content
         </a>
       
@@ -74,7 +74,7 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="makedocsio-github-test-bash" class="md-header__button md-logo" aria-label="makedocsio-github-test-bash" data-md-component="logo">
+    <a href="." title="github-bash" class="md-header__button md-logo" aria-label="github-bash" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
@@ -87,7 +87,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            makedocsio-github-test-bash
+            github-bash
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -171,13 +171,13 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="makedocsio-github-test-bash" class="md-nav__button md-logo" aria-label="makedocsio-github-test-bash" data-md-component="logo">
+    <a href="." title="github-bash" class="md-nav__button md-logo" aria-label="github-bash" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
 
     </a>
-    makedocsio-github-test-bash
+    github-bash
   </label>
   
     <div class="md-nav__source">
@@ -407,23 +407,23 @@
                   </a>
                 
                 
-                <h1 id="welcome-to-makedocsio-github-test-bash">Welcome to makedocsio-github-test-bash</h1>
+                <h1 id="welcome-to-github-bash">Welcome to github-bash</h1>
 <blockquote>
-<p>Rename or change the content of this file at <code>mdocs/content/index.md</code>
+<p>Rename or change the content of this file at <code>docs/content/index.md</code>
   to get started creating project documentation</p>
 </blockquote>
 <h2 id="project-structure">Project Structure</h2>
 <pre><code>Makefile
-mdocs/
+docs/
  - content/
     - index.md
  - Dockerfile
  - Makefile
  - mkdocs.yml
 </code></pre>
-<p>Your documenation content is placed in <code>mdocs/content</code>. These are your markdown files and images. Standard markdown rules apply here.</p>
-<p>At <code>mdocs/mkdocs.yml</code> is your configuration for your <a href="https://www.mkdocs.org/user-guide/configuration/" target="_blank">https://www.mkdocs.org</a></p>
-<pre><code>site_name: !ENV [SITE_NAME, &quot;makedocsio-github-test-bash&quot;]
+<p>Your documenation content is placed in <code>docs/content/</code>. These are your markdown files and images. Standard markdown rules apply here.</p>
+<p>At <code>docs/mkdocs.yml</code> is your configuration for your <a href="https://www.mkdocs.org/user-guide/configuration/" target="_blank">https://www.mkdocs.org</a></p>
+<pre><code>site_name: !ENV [SITE_NAME, &quot;github-bash&quot;]
 site_url: !ENV [SITE_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
 site_dir: !ENV [SITE_DIR, &quot;site&quot;]
 docs_dir: !ENV [DOCS_DIR, &quot;content&quot;]
@@ -438,24 +438,24 @@ nav:
   - &quot;Home&quot;: &quot;index.md&quot;
 </code></pre>
 <p>You can update the site attributes via the configuration site via the configuration files entries</p>
-<pre><code>site_name: !ENV [SITE_NAME, &quot;makedocsio-github-test-bash&quot;]
+<pre><code>site_name: !ENV [SITE_NAME, &quot;github-bash&quot;]
 site_url: !ENV [SITE_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
 site_dir: !ENV [SITE_DIR, &quot;site&quot;]
 docs_dir: !ENV [DOCS_DIR, &quot;content&quot;]
 repo_url: !ENV [REPO_URL, &quot;https://github.com/motowilliams/makedocsio-github-test-bash&quot;]
 </code></pre>
 <p>or override them via make</p>
-<pre><code>make build_docs SITE_NAME=&quot;makedocsio-github-test-bash&quot;
+<pre><code>make build_docs SITE_NAME=&quot;${SITE_NAME}&quot;
 </code></pre>
 <h2 id="building-your-site">Building Your Site</h2>
-<p>This project is configured with a Make and has a few tasks created or added too your existing Makefile.</p>
+<p>This project is configured with a Make and has a few tasks created or added to your existing Makefile.</p>
 <h3 id="source">Source</h3>
 <pre><code>export DOCS_DIR_NAME ?= content
-export DOCS_SRC ?= mdocs
+export DOCS_SRC ?= docs
 export PUBLISH_DIR ?= public
 export REPO_URL ?= https://github.com/motowilliams/makedocsio-github-test-bash
 export SITE_DIR ?= site
-export SITE_NAME ?= makedocsio-github-test-bash
+export SITE_NAME ?= github-bash
 export PROTOCOL ?= http
 export DOMAIN_NAME ?= 127.0.0.1:8000
 export SITE_URL ?= $(PROTOCOL)://$(DOMAIN_NAME)/
@@ -471,9 +471,9 @@ endif
 export BASH_CMD := $(SHELL) -c
 export COMMIT_HASH ?= $(shell [[ -d &quot;.git&quot; ]] &amp;&amp; git rev-parse HEAD)
 export REPO_ROOT := $(shell [[ -z &quot;${CI}&quot; ]] &amp;&amp; echo '/app' || echo $(PWD))
-export VERSION ?= $(shell [[ -d &quot;.git&quot; ]] &amp;&amp; git tag --sort=committerdate | grep -E '[0-9]' | tail -1 || echo 0.0.0)
+export VERSION ?= $(shell [[ -d &quot;.git&quot; ]] &amp;&amp; git tag --sort=v:refname | grep -E '[0-9]' | tail -1 || echo 0.0.0)
 
-export IMAGE_NAME ?= makedocsio-github-test-bash-builder
+export IMAGE_NAME ?= github-bash-builder
 export IMAGE_VERSION ?= latest
 export IMAGE_TAG = $(IMAGE_NAME):$(IMAGE_VERSION)
 export ADDITIONAL_BUILD_ARGS ?=
