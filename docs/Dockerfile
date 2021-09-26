@@ -59,4 +59,4 @@ RUN echo "Creating wrapper scripts"                                         && \
     echo                                                         >> $SCRIPT && \
     echo 'echo "Serving documentation site on port $LOCAL_PORT"' >> $SCRIPT && \
     echo 'mkdocs serve -v --dev-addr=0.0.0.0:$LOCAL_PORT'        >> $SCRIPT && \
-    chmod 755 $SCRIPT
+    chmod 755 $SCRIPT 
