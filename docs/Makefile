@@ -1,7 +1,7 @@
 GENERATOR=mkdocs
 export DOCS_ROOT_DIR=docs
-export PUBLISH_DIR:=public
 export BUILD_OUTPUT_DIR:=site
+export PUBLISH_DIR:=public
 
 ifeq ($(OS),Windows_NT)
 SHELL := '/usr/bin/sh.exe'
