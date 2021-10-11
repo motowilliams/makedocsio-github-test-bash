@@ -10,6 +10,7 @@ RUN apk update && \
     ca-certificates \
     curl \
     docker-cli \
+    dos2unix \
     git \
     gnupg \
     make \
