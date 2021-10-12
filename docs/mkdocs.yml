@@ -3,4 +3,3 @@ theme: material
 plugins:
   - search
   - macros:
-      modules: [mkdocs-macros-file-include]
